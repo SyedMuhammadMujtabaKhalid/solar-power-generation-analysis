@@ -1,21 +1,35 @@
 # Solar Energy Power Generation Analysis
+**Data Visualization Pitch - Student Individual Assignment**
+
+**Author:** Muhammad Mujtaba Khalid, Syed  
+**Student ID:** 947726  
+**Email:** m.syed17@campus.unimib.it  
+
+---
 
 ## Project Overview
-This project focuses on analyzing the impact of various weather and environmental factors on solar power generation. By conducting Exploratory Data Analysis (EDA) on telemetry data, we aim to uncover how dynamic conditions like solar radiation, ambient temperature, and cloud cover influence the overall efficiency and power output of solar energy systems. 
+This project focuses on understanding the impact of weather and environmental factors, particularly solar radiation and temperature, on solar power output. By conducting Exploratory Data Analysis (EDA) on telemetry data, we aim to uncover how these dynamic conditions influence the overall efficiency and power generation of solar energy systems. 
 
 ## Key Research Questions
 The analysis addresses the following fundamental questions:
-* How strongly does solar radiation correlate with the amount of power generated?
-* What is the statistical impact of ambient temperature on the efficiency of solar panels?
-* How does varying cloud cover diminish the average solar power generation?
-* Can we identify underlying anomalies or outliers in the power generation data?
+* Is there a measurable relationship between solar radiation levels and electricity output?
+* How does temperature variability affect the distribution and stability of power generation?
+* Are there observable patterns or outliers that indicate inefficiencies or extreme operating conditions?
 
 ## Tech Stack
 This project was built using the following tools and libraries:
 * **Python**: The core programming language used for analysis.
-* **Pandas**: For robust data manipulation, cleaning, and preprocessing.
-* **Matplotlib**: For foundational data visualization and trend plotting.
-* **Seaborn**: For advanced, statistically appealing visual distributions.
+* **Pandas**: For data manipulation, handling missing values, and eliminating duplicates.
+* **NumPy**: For numerical operations.
+* **Matplotlib & Seaborn**: For comparative, trend-based visual inspection, and anomaly detection.
+
+## About the Data
+* **Source:** Kaggle (Solar energy power generation dataset)
+* **Data Characteristics:** Structured tabular data (CSV format) consisting of continuous numerical variables suitable for exploratory and descriptive analysis.
+* **Limitations:**
+  * Measurements may be affected by sensor calibration errors.
+  * Data represents a specific geographic location, limiting generalizability.
+  * Weather conditions such as dust or shading are not explicitly captured.
 
 ## How to Run
 
@@ -28,9 +42,9 @@ Follow these instructions to run the analysis locally:
    ```
 
 2. **Install Dependencies:**
-   Ensure you have Python installed, then install the required libraries via pip:
+   Ensure you have Python installed, then install the required libraries:
    ```bash
-   pip install pandas matplotlib seaborn jupyter
+   pip install pandas numpy matplotlib seaborn jupyter
    ```
 
 3. **Run the Jupyter Notebook:**
@@ -41,7 +55,11 @@ Follow these instructions to run the analysis locally:
 
 ## 💡 Key Insights
 
-Based on the data analysis, we discovered the following key insights:
-* **Solar Radiation Dominance:** Solar radiation is the most significant driving factor. There is a strong, nearly linear positive correlation between the amount of shortwave solar radiation received and the power generated.
-* **Temperature Sensitivity:** While higher solar radiation naturally increases ambient temperature, extreme temperatures can slightly alter panel efficiency, as shown by the varied power generation distribution at differing temperature ranges. 
-* **Cloud Cover Attrition:** As expected, significant cloud cover directly impedes power generation. The data confirms a sharp decline in average power output on days categorized with high cloud cover compared to clear, low-cover days.
+Based on the visual data analysis, we discovered the following key insights:
+* **Solar Radiation Dominance:** Solar radiation exhibits a strong positive relationship with electricity generation, confirming it as the primary driver of solar energy production. Higher radiation levels consistently result in increased electricity output.
+* **Temperature Sensitivity:** Power generation shows noticeable variability across temperature levels. Extreme temperatures are associated with increased dispersion and outliers. Temperature affects the stability and variability of the power generation rather than determining maximum output levels.
+* **System Optimization:** The presence of outliers in power output suggests performance fluctuations under extreme environmental conditions. These trends can support energy forecasting and system optimization in renewable energy planning.
+
+## License
+A Data Visualization Study of Solar energy power generation © 2026 by Muhammad Mujtaba khalid, Syed is licensed under **CC BY-NC-SA 4.0** (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International).
+See the `LICENSE` file for more details.
