@@ -1,25 +1,25 @@
 # Solar Energy Power Generation Analysis
 
-## 📌 Project Overview
+## Project Overview
 This project focuses on analyzing the impact of various weather and environmental factors on solar power generation. By conducting Exploratory Data Analysis (EDA) on telemetry data, we aim to uncover how dynamic conditions like solar radiation, ambient temperature, and cloud cover influence the overall efficiency and power output of solar energy systems. 
 
-## ❓ Key Research Questions
+## Key Research Questions
 The analysis addresses the following fundamental questions:
 * How strongly does solar radiation correlate with the amount of power generated?
 * What is the statistical impact of ambient temperature on the efficiency of solar panels?
 * How does varying cloud cover diminish the average solar power generation?
 * Can we identify underlying anomalies or outliers in the power generation data?
 
-## 🛠 Tech Stack
+## Tech Stack
 This project was built using the following tools and libraries:
 * **Python**: The core programming language used for analysis.
 * **Pandas**: For robust data manipulation, cleaning, and preprocessing.
 * **Matplotlib**: For foundational data visualization and trend plotting.
 * **Seaborn**: For advanced, statistically appealing visual distributions.
 
-## 🚀 How to Run
+## How to Run
 
-Follow these simple instructions to run the analysis locally:
+Follow these instructions to run the analysis locally:
 
 1. **Clone the Repository:**
    ```bash
