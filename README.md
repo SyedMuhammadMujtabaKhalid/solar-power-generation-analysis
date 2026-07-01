@@ -1,8 +1,7 @@
 # Solar Energy Power Generation Analysis
 **Data Visualization Pitch - Student Individual Assignment**
 
-**Author:** Muhammad Mujtaba Khalid, Syed  
-**Student ID:** 947726  
+**Author:** Muhammad Mujtaba Khalid, Syed   
 **Email:** m.syed17@campus.unimib.it  
 
 ---
