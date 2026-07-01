@@ -1,5 +1,4 @@
-<div align="center">
-  <img src="https://img.freepik.com/free-vector/solar-panels-background_23-2148117789.jpg?w=1060" alt="Solar Energy Banner" width="100%">
+
   
   <h1>☀️ Solar Power Generation Analysis</h1>
   
